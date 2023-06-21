@@ -18,7 +18,9 @@ def utaut_scoring(dataframe,column_list):
     #to be used for questions numbered in 'reverse_list'
     scoring_key_reverse = {'Strongly disagree':5, 'Disagree':4, 
         'Neither agree nor disagree':3, 'Agree':2, 'Strongly agree':1}
-    reverse_list = [22,23,24]
+    reverse_list = [23,24,25]
+    block_dict = {1:[1,2,3,4,5],2:[6,7,8,9],3:[10,11,12],4:[13,14,15,16,17],5:[18,19,20,21,22],6:[23,24,25],7:[26,27,28]}
+
     #########################################################################
 
     score_dict = {}
@@ -74,4 +76,5 @@ for i in range(len(files)):
     score_df.columns = ['Score']
 
     score_df.to_csv(names[i]+"_utaut_score.csv")
+
 
