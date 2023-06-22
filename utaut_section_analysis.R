@@ -4,7 +4,6 @@ library(ggplot2)
 library(ggpubr)
 library(ggstatsplot)
 
-robot<-read_csv('D:/Documents/S2Y3/Thesis/experiment/Data files/Robot_utaut_subsection_score.csv')
-laptop<-read_csv('D:/Documents/S2Y3/Thesis/experiment/Data files/Laptop_utaut_subsection_score.csv')
+utaut<-read_csv('D:/Documents/S2Y3/Thesis/experiment/Data files/Utaut_subsection_score.csv')
 
 
