@@ -77,8 +77,13 @@ for i in range(len(files)):
     df = df.rename(columns={-1:'Degree'})
 
     score = utaut_scoring(df,lists[i])
-    utaut_dict[names[i]] = score
+
+    for participants, values in score.items():
+        values["Condition"] = names[i]
     
-    score_df = pd.DataFrame.from_dict(score, orient='index')
-    score_df.to_csv(names[i]+"_utaut_subsection_score.csv")
+    utaut_dict.update(score)
+
+
+score_df = pd.DataFrame.from_dict(utaut_dict, orient='index')
+score_df.to_csv("Utaut_subsection_score.csv")
 
