@@ -27,14 +27,7 @@ boxplot(data$values~data$group,
         col = c("#f8766d","#00bfc4"),
 )
 
-#mean(robot$score_ati)
-#sd(robot$score_ati)
-#mean(laptop$score_ati)
-#sd(laptop$score_ati)
-
-#ati_scores <- rbind.data.frame(
-#  data.frame(participant = robot$participant, score = robot$Score,
-#             Condition = "Robot"),
-#  data.frame(participant = laptop$participant, score = laptop$Score, 
-#             Condition = "Laptop")
-#)
+mean(robot$Score)
+sd(robot$Score)
+mean(laptop$Score)
+sd(laptop$Score)
