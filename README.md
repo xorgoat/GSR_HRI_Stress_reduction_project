@@ -8,6 +8,7 @@ Guide to files
 -
 
 Python:
+
 The following files all share a basic structure to score the surveys:
 - 'ati_final'
 - 'psq_final'
@@ -18,6 +19,7 @@ The following files all share a basic structure to score the surveys:
 'preprocessing_final' preprocesses the GSR data.
 
 R:
+
 The R files with 'alt' in its name are from the first attempt and are obsolete. 
 The second attempt files include: 
 - 'ati_analysis'
@@ -27,5 +29,6 @@ The second attempt files include:
 
 The first three listed follow the same process and are thus fairly similar.
 
-Choreographe
+Choreographe:
+
 The robot behavior is uploaded as a choreographe file. Simply the behavior includes starting up Pepper, playing the video, and waving goodbye.
