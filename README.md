@@ -13,6 +13,7 @@ The following files all share a basic structure to score the surveys:
 - 'psq_final'
 - 'utaut_final'
 - 'utaut_subsection' 
+
 'utaut_subsection' is likely the most different given the scoring was seperated by UTAUT sections. 
 'preprocessing_final' preprocesses the GSR data.
 
@@ -23,6 +24,7 @@ The second attempt files include:
 - 'stress_measurements_analysis'
 - 'utaut_section_analysis'
 - 'utaut_stress_analysis'
+
 The first three listed follow the same process and are thus fairly similar.
 
 Choreographe
