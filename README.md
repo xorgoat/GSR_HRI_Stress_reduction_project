@@ -7,6 +7,7 @@ The repository includes the code used to extract the necessary data from surveys
 Guide to files
 -
 
+
 Python:
 
 The following files all share a basic structure to score the surveys:
@@ -18,6 +19,7 @@ The following files all share a basic structure to score the surveys:
 'utaut_subsection' is likely the most different given the scoring was seperated by UTAUT sections. 
 'preprocessing_final' preprocesses the GSR data.
 
+
 R:
 
 The R files with 'alt' in its name are from the first attempt and are obsolete. 
@@ -27,8 +29,9 @@ The second attempt files include:
 - 'utaut_section_analysis'
 - 'utaut_stress_analysis'
 
-The first three listed follow the same process and are thus fairly similar.
+The first three listed follow the same process and are fairly similar.
+
 
 Choreographe:
 
-The robot behavior is uploaded as a choreographe file. Simply the behavior includes starting up Pepper, playing the video, and waving goodbye.
+The robot behavior is uploaded as a choreographe file. Simply, the behavior includes starting up Pepper, playing the video, and waving goodbye.
